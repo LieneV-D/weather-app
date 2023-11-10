@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>⛅Weather App⛅</title>
+  </head>
+  <body class="whole-page">
+    <div class="container">
+      <div class="weather-app">
+        <header>
+          <form id="search-form">
+            <input
+              type="search"
+              placeholder="Enter a city.."
+              class="search-input"
+              id="city-search"
+            />
+            <input type="submit" value="Search" class="search-button" />
+          </form>
+          <br />
+        </header>
+        <main>
+          <span class="current-weather">
+            <h1 id="current-city">Riga</h1>
+          </span>
+
+          <span class="current-emoji" id="current-emoji">🌧</span>
+
+          <span class="current-temperature" id="current-temp">8</span>
+          <span class="degrees-symbol" id="degrees-symbol">°</span>
+          <span class="units-celsius" id="units-celsius">C</span>
+          <p class="current-weather-data">
+            <span id="current-date-time"> Wednesday, 17:27 </span>
+            <br />
+            <span>
+              Humidity: <strong><span id="humidity">58</span>%</strong> Wind:
+              <strong><span id="wind">4</span>m/s</strong>
+            </span>
+          </p>
+          <hr />
+        </main>
+        <footer>This project was coded by Liene Vecvagare ❤</footer>
+      </div>
+    </div>
+    <script src="src/app.js"></script>
+  </body>
+</html>
