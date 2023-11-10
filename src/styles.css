@@ -1,0 +1,87 @@
+body {
+  background-image: url("images/mountains.jpg");
+  background-color: rgb(227, 183, 247, 0.3);
+}
+
+h1 {
+  font-size: 5rem;
+  display: inline;
+  margin-right: 250px;
+}
+h1,
+p,
+footer {
+  color: rgb(76, 80, 84);
+}
+.weather-app {
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+  padding: 40px;
+  border: solid;
+  border-radius: 10px;
+  width: 700px;
+  background-color: rgb(250, 235, 93, 0.7);
+}
+
+.search-input {
+  background-color: #f9f7fe;
+  border: none;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  width: 75%;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.search-button {
+  margin-left: 5px;
+  font-size: 16px;
+  background-color: rgb(227, 183, 247);
+  color: white;
+  border: none;
+  padding: 20px;
+  line-height: 1;
+  border-radius: 5px;
+}
+
+.seach-button:hover {
+  background-color: white;
+  color: rgb(227, 183, 247);
+}
+
+.current-temperature {
+  font-size: 80px;
+  font-weight: bold;
+  position: relative;
+
+  color: rgb(76, 80, 84);
+}
+.degrees-symbol {
+  font-size: 30px;
+  font-weight: normal;
+  position: relative;
+  top: -30px;
+  left: -5px;
+  text-align: right;
+  color: rgb(76, 80, 84);
+}
+.units-celsius {
+  font-size: 30px;
+  font-weight: normal;
+  position: relative;
+  top: -35px;
+  left: -5px;
+  color: rgb(76, 80, 84);
+}
+.current-emoji {
+  position: relative;
+  top: -10px;
+  font-size: 50px;
+}
+footer {
+  text-align: center;
+}
+.current-weather strong {
+  color: rgb(232, 62, 59);
+}
